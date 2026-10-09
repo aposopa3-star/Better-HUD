@@ -1,0 +1,7 @@
+{
+ "schemaVersion":1,"id":"betterhud","version":"${version}","name":"Better HUD",
+ "description":"Hidden multi-key bindings for Minecraft actions.","environment":"client",
+ "entrypoints":{"client":["de.betterhud.BetterHud"],"modmenu":["de.betterhud.BetterHudMenu"]},
+ "depends":{"fabricloader":">=0.18.0","minecraft":"1.21.11","java":">=21"},
+ "mixins":["betterhud.mixins.json"]
+}
